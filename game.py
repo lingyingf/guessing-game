@@ -10,5 +10,7 @@ corret number is guessed. guessed number == random number --> break loop
 when a guess happens, we will += 1 to the count_guess variable
 4) When loop ends, print - good job {name} you guessed in {count_guess} tries!
 '''
+
 print("Hello! What is your name? ")
 name = input("> ")
+print("Hi", name, "welcome to the game!")
